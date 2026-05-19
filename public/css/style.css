@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color: #f4f4f4;
+}
+
+nav {
+  margin-bottom: 30px;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+h1 {
+  color: #4b0082;
+}
+
+ul {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
