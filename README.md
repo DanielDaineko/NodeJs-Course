@@ -1,8 +1,8 @@
-# NodeJs-Course
+# Express Learning Project
 
 A beginner-friendly backend project built while learning Node.js and Express.js.
 
-This repository contains practice assignments from my Node.js course and is being continuously improved into a full backend portfolio project.
+This repository contains practice assignments from my Node.js course and is continuously being improved into a full backend portfolio project.
 
 ---
 
@@ -11,12 +11,13 @@ This repository contains practice assignments from my Node.js course and is bein
 - Express.js server
 - Routing with Express
 - Static file serving
-- HTML pages
+- HTML & EJS templates
 - CSS styling
 - Navigation between pages
 - Middleware usage
 - Form handling
 - POST requests
+- Dynamic content rendering
 - Environment variables with dotenv
 
 ---
@@ -30,8 +31,8 @@ NodeJs-Course/
 │   └── css/
 │       └── style.css
 ├── views/
-│   ├── index.html
-│   └── users.html
+│   ├── index.ejs
+│   └── users.ejs
 ├── .env
 ├── .gitignore
 ├── app.js
@@ -46,13 +47,13 @@ NodeJs-Course/
 
 Clone the repository:
 
-```txt
+```bash
 git clone https://github.com/YOUR_USERNAME/NodeJs-Course.git
 ```
 
 Install dependencies:
 
-```txt
+```bash
 npm install
 ```
 
@@ -60,9 +61,9 @@ npm install
 
 ## Environment Variables
 
-Create a .env file in the root directory:
+Create a `.env` file in the root directory:
 
-```txt
+```env
 PORT=3000
 ```
 
@@ -72,13 +73,13 @@ PORT=3000
 
 Development mode:
 
-```txt
+```bash
 npm run dev
 ```
 
 Production mode:
 
-```txt
+```bash
 npm start
 ```
 
@@ -86,9 +87,13 @@ npm start
 
 ## Open In Browser
 
+Home page:
+
 ```txt
 http://localhost:3000
 ```
+
+Users page:
 
 ```txt
 http://localhost:3000/users
@@ -100,6 +105,7 @@ http://localhost:3000/users
 
 - Node.js
 - Express.js
+- EJS
 - HTML5
 - CSS3
 - dotenv
@@ -107,12 +113,24 @@ http://localhost:3000/users
 
 ---
 
+## Current Learning Topics
+
+- Express Routing
+- Middleware
+- Serving Static Files
+- Template Engines
+- Dynamic Rendering
+- Forms & POST Requests
+
+---
+
 ## Future Improvements
 
 - Express Router
 - MVC architecture
-- Template engines (EJS)
 - MongoDB integration
 - Authentication
 - REST API
 - Deployment
+
+---
